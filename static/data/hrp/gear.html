@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>gear</title>
+<!-- 2015-12-06 Sun 18:22 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="René Heß" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">gear</h1>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="right" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">worn base items</th>
+<th scope="col" class="left">detail</th>
+<th scope="col" class="right">weight</th>
+<th scope="col" class="left">comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">shoes</td>
+<td class="left">HanWag Arrow GTX</td>
+<td class="right">1075</td>
+<td class="left">Not suitable for this walk.</td>
+</tr>
+
+<tr>
+<td class="left">socks pair 1</td>
+<td class="left">Lorpen light hiker</td>
+<td class="right">55</td>
+<td class="left">Use merino wool socks instead.</td>
+</tr>
+
+<tr>
+<td class="left">slip</td>
+<td class="left">Falke</td>
+<td class="right">39</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">shorts</td>
+<td class="left">Patagonia field shorts</td>
+<td class="right">89</td>
+<td class="left">Top.</td>
+</tr>
+
+<tr>
+<td class="left">base top</td>
+<td class="left">Patagonia Capilene</td>
+<td class="right">133</td>
+<td class="left">Mainly used sunshade hoody.</td>
+</tr>
+
+<tr>
+<td class="left">headwear</td>
+<td class="left">headsweats race hat</td>
+<td class="right">47</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">glasses</td>
+<td class="left">fielmann</td>
+<td class="right">15</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">sunglasses</td>
+<td class="left">clip on normal glasses</td>
+<td class="right">6</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">watch</td>
+<td class="left">Casio SGW-300H-1AVER</td>
+<td class="right">45</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">trekking poles</td>
+<td class="left">Black Diamond Alpin Carbon Cork</td>
+<td class="right">532</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="right">2036</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">^</td>
+<td class="left">&#xa0;</td>
+<td class="right">suma</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="right">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">other clothing</td>
+<td class="left">detail</td>
+<td class="right">weight</td>
+<td class="left">comments</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">underwear 2</td>
+<td class="left">&#xa0;</td>
+<td class="right">46</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">socks pair 2</td>
+<td class="left">Icebreaker merino light</td>
+<td class="right">65</td>
+<td class="left">Top.</td>
+</tr>
+
+<tr>
+<td class="left">pants</td>
+<td class="left">Quechua</td>
+<td class="right">355</td>
+<td class="left">Could be lighter.</td>
+</tr>
+
+<tr>
+<td class="left">longsleeve hemd</td>
+<td class="left">Patagonia sunshade hoody</td>
+<td class="right">197</td>
+<td class="left">Top.</td>
+</tr>
+
+<tr>
+<td class="left">fleece</td>
+<td class="left">Patagonia R1 Pullover</td>
+<td class="right">363</td>
+<td class="left">Top.</td>
+</tr>
+
+<tr>
+<td class="left">puffy</td>
+<td class="left">Patagonia nano puff jacket</td>
+<td class="right">336</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">rain top</td>
+<td class="left">Marmot precip jacket</td>
+<td class="right">310</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">rain bottom</td>
+<td class="left">Marmot precip pants</td>
+<td class="right">235</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">buff</td>
+<td class="left">buff</td>
+<td class="right">55</td>
+<td class="left">Top.</td>
+</tr>
+
+<tr>
+<td class="left">hat</td>
+<td class="left">fleece balaclava</td>
+<td class="right">49</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">gloves</td>
+<td class="left">North Face enali etip glove</td>
+<td class="right">81</td>
+<td class="left">Recommended to take gloves.</td>
+</tr>
+
+<tr>
+<td class="left">gaiters</td>
+<td class="left">Trekmates</td>
+<td class="right">85</td>
+<td class="left">Flaw: Didn't use them.</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="right">2177</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">^</td>
+<td class="left">&#xa0;</td>
+<td class="right">sumb</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="right">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">shelter and sleeping</td>
+<td class="left">detail</td>
+<td class="right">weight</td>
+<td class="left">comments</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">tent</td>
+<td class="left">Tenttarp Protrail with backpole</td>
+<td class="right">780</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">guylines</td>
+<td class="left">Tatonka</td>
+<td class="right">54</td>
+<td class="left">Flaw: Soak water.</td>
+</tr>
+
+<tr>
+<td class="left">stakes</td>
+<td class="left">8x MSR groundhogs + 4 Tarptent stakes</td>
+<td class="right">120</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">sleeping bag</td>
+<td class="left">Mountain Equipment helium 400</td>
+<td class="right">766</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">sleeping bag sack</td>
+<td class="left">&#xa0;</td>
+<td class="right">49</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">sleeping pad</td>
+<td class="left">Therm-a-Rest Ridge Rest SOLite</td>
+<td class="right">413</td>
+<td class="left">Not too comfortable but you can use noninflatable pads for rests.</td>
+</tr>
+
+<tr>
+<td class="left">inlet</td>
+<td class="left">Cocoon Mummy Liner</td>
+<td class="right">120</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">groundsheet</td>
+<td class="left">tyvek</td>
+<td class="right">95</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="right">2397</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">^</td>
+<td class="left">&#xa0;</td>
+<td class="right">sumc</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="right">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">cooking &amp; water</td>
+<td class="left">detail</td>
+<td class="right">weight</td>
+<td class="left">comments</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">stove</td>
+<td class="left">trangia</td>
+<td class="right">111</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">pot stand</td>
+<td class="left">selfmade</td>
+<td class="right">20</td>
+<td class="left">Alu tube and two wires.  Acceptable.</td>
+</tr>
+
+<tr>
+<td class="left">sponge</td>
+<td class="left">&#xa0;</td>
+<td class="right">4</td>
+<td class="left">Unnecessarry.</td>
+</tr>
+
+<tr>
+<td class="left">windscreen</td>
+<td class="left">selfmade</td>
+<td class="right">20</td>
+<td class="left">Broken after two or three weeks but easy to replace.</td>
+</tr>
+
+<tr>
+<td class="left">ignition</td>
+<td class="left">2xlighter</td>
+<td class="right">37</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">pot (with cozy)</td>
+<td class="left">GSI Halulite Minimalist 600ml</td>
+<td class="right">177</td>
+<td class="left">Top: Really liked it.</td>
+</tr>
+
+<tr>
+<td class="left">spoon</td>
+<td class="left">Snow Peak Titanium</td>
+<td class="right">15</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">water storage</td>
+<td class="left">Platypus 1L</td>
+<td class="right">24</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">water storage</td>
+<td class="left">Source Liquitainer 2L</td>
+<td class="right">38</td>
+<td class="left">Leaked after some time.</td>
+</tr>
+
+<tr>
+<td class="left">purification</td>
+<td class="left">Aquaventure</td>
+<td class="right">84</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="right">530</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">^</td>
+<td class="left">&#xa0;</td>
+<td class="right">sumd</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="right">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">navigation</td>
+<td class="left">&#xa0;</td>
+<td class="right">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">compass</td>
+<td class="left">Recta DS40</td>
+<td class="right">42</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">guidebook</td>
+<td class="left">Joosten printed on AN</td>
+<td class="right">120</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">maps</td>
+<td class="left">cut or printed on A4</td>
+<td class="right">197</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">gps</td>
+<td class="left">Teasi One and charger</td>
+<td class="right">143</td>
+<td class="left">Stupid gps but I already owned it.</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="right">502</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">^</td>
+<td class="left">&#xa0;</td>
+<td class="right">sume</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="right">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">small essentials</td>
+<td class="left">&#xa0;</td>
+<td class="right">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">dent care</td>
+<td class="left">toothbrush, paste, floss</td>
+<td class="right">61</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">toilet paper</td>
+<td class="left">&#xa0;</td>
+<td class="right">25</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">soap</td>
+<td class="left">Dr. Bronner Zitrus</td>
+<td class="right">78</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">crème</td>
+<td class="left">Speick</td>
+<td class="right">50</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">towel</td>
+<td class="left">Salewa drying towel</td>
+<td class="right">20</td>
+<td class="left">Hitchhikers guide to the galaxy: You need some towel.</td>
+</tr>
+
+<tr>
+<td class="left">sun protection</td>
+<td class="left">sunscreen, lip balsam</td>
+<td class="right">78</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">foot care</td>
+<td class="left">Leukotape, salve, blisterstuff</td>
+<td class="right">96</td>
+<td class="left">Never had problems with my feet.</td>
+</tr>
+
+<tr>
+<td class="left">first aid</td>
+<td class="left">patch, ibuprofen, antidiarrhea, roll gauze, antiseptikumm</td>
+<td class="right">78</td>
+<td class="left">Antidiarrhea strongly recommended ;).</td>
+</tr>
+
+<tr>
+<td class="left">mini scissor</td>
+<td class="left">from first aid set</td>
+<td class="right">11</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">knife</td>
+<td class="left">Opinel</td>
+<td class="right">46</td>
+<td class="left">Could be lighter but I like it.</td>
+</tr>
+
+<tr>
+<td class="left">lightning</td>
+<td class="left">Petzl Tikka 2</td>
+<td class="right">81</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">repair</td>
+<td class="left">Kleber, Nadel, Faden</td>
+<td class="right">21</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">mobile phone</td>
+<td class="left">Samsung and cable to usb</td>
+<td class="right">130</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">usb power adapter</td>
+<td class="left">Talytech</td>
+<td class="right">26</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ebookeader</td>
+<td class="left">&#xa0;</td>
+<td class="right">178</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">camera</td>
+<td class="left">Canon Powershot G15</td>
+<td class="right">381</td>
+<td class="left">Heavy but relatively good pictures.</td>
+</tr>
+
+<tr>
+<td class="left">camera equipment</td>
+<td class="left">spare battery, storage cards, case, power station, tripod</td>
+<td class="right">288</td>
+<td class="left">Didn't need spare battery pack.</td>
+</tr>
+
+<tr>
+<td class="left">notebook</td>
+<td class="left">Moleskine notebook</td>
+<td class="right">132</td>
+<td class="left">Heavy but I like writing things down.</td>
+</tr>
+
+<tr>
+<td class="left">pencils</td>
+<td class="left">Staedler</td>
+<td class="right">12</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">pens</td>
+<td class="left">Uniball eye</td>
+<td class="right">19</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">mini carabiner 3x</td>
+<td class="left">Sea to Summit</td>
+<td class="right">8</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">whistle</td>
+<td class="left">acme tornado</td>
+<td class="right">5</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">ear plugs</td>
+<td class="left">&#xa0;</td>
+<td class="right">2</td>
+<td class="left">Strongly recommended.</td>
+</tr>
+
+<tr>
+<td class="left">spare batteries</td>
+<td class="left">AAA</td>
+<td class="right">40</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="right">1866</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">^</td>
+<td class="left">&#xa0;</td>
+<td class="right">sumf</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="right">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">packing</td>
+<td class="left">detail</td>
+<td class="right">weight</td>
+<td class="left">comments</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">backpack</td>
+<td class="left">Deuter ACT Lite 50+10</td>
+<td class="right">1670</td>
+<td class="left">Top: Good size for me.</td>
+</tr>
+
+<tr>
+<td class="left">pack liner</td>
+<td class="left">garbage sacks</td>
+<td class="right">82</td>
+<td class="left">A bit heavy. Had to buy new ones on the road.</td>
+</tr>
+
+<tr>
+<td class="left">stuff sack</td>
+<td class="left">Sea to Summit UltraSil Day Pack</td>
+<td class="right">71</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">plastic storage bags</td>
+<td class="left">&#xa0;</td>
+<td class="right">20</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">wallet</td>
+<td class="left">Zipper</td>
+<td class="right">70</td>
+<td class="left">with all the stuff inside</td>
+</tr>
+
+<tr>
+<td class="left">map bag</td>
+<td class="left">Zipper 3l</td>
+<td class="right">19</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="right">1932</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">^</td>
+<td class="left">&#xa0;</td>
+<td class="right">sumg</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="right">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">A gear worn</td>
+<td class="left">&#xa0;</td>
+<td class="right">2036</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">B pack and gear in pack</td>
+<td class="left">&#xa0;</td>
+<td class="right">9404</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">C water at start</td>
+<td class="left">&#xa0;</td>
+<td class="right">2000</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">D food at start</td>
+<td class="left">&#xa0;</td>
+<td class="right">1000</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">E fuel at start</td>
+<td class="left">&#xa0;</td>
+<td class="right">1000</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">F pack weight at start</td>
+<td class="left">&#xa0;</td>
+<td class="right">13380</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">G total weight at start</td>
+<td class="left">&#xa0;</td>
+<td class="right">15442</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: René Heß</p>
+<p class="date">Created: 2015-12-06 Sun 18:22</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

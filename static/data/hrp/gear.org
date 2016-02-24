@@ -1,0 +1,132 @@
+| worn base items         | detail                                                    | weight | comments                                                          |
+|-------------------------+-----------------------------------------------------------+--------+-------------------------------------------------------------------|
+| shoes                   | HanWag Arrow GTX                                          |   1075 | Not suitable for this walk.                                       |
+| socks pair 1            | Lorpen light hiker                                        |     55 | Use merino wool socks instead.                                    |
+| slip                    | Falke                                                     |     39 |                                                                   |
+| shorts                  | Patagonia field shorts                                    |     89 | Top.                                                              |
+| base top                | Patagonia Capilene                                        |    133 | Mainly used sunshade hoody.                                       |
+| headwear                | headsweats race hat                                       |     47 |                                                                   |
+| glasses                 | fielmann                                                  |     15 |                                                                   |
+| sunglasses              | clip on normal glasses                                    |      6 |                                                                   |
+| watch                   | Casio SGW-300H-1AVER                                      |     45 |                                                                   |
+| trekking poles          | Black Diamond Alpin Carbon Cork                           |    532 |                                                                   |
+|-------------------------+-----------------------------------------------------------+--------+-------------------------------------------------------------------|
+|                         |                                                           |   2036 |                                                                   |
+| ^                       |                                                           |   suma |                                                                   |
+|                         |                                                           |        |                                                                   |
+|-------------------------+-----------------------------------------------------------+--------+-------------------------------------------------------------------|
+| other clothing          | detail                                                    | weight | comments                                                          |
+|-------------------------+-----------------------------------------------------------+--------+-------------------------------------------------------------------|
+| underwear 2             |                                                           |     46 |                                                                   |
+| socks pair 2            | Icebreaker merino light                                   |     65 | Top.                                                              |
+| pants                   | Quechua                                                   |    355 | Could be lighter.                                                 |
+| longsleeve hemd         | Patagonia sunshade hoody                                  |    197 | Top.                                                              |
+| fleece                  | Patagonia R1 Pullover                                     |    363 | Top.                                                              |
+| puffy                   | Patagonia nano puff jacket                                |    336 |                                                                   |
+| rain top                | Marmot precip jacket                                      |    310 |                                                                   |
+| rain bottom             | Marmot precip pants                                       |    235 |                                                                   |
+| buff                    | buff                                                      |     55 | Top.                                                              |
+| hat                     | fleece balaclava                                          |     49 |                                                                   |
+| gloves                  | North Face enali etip glove                               |     81 | Recommended to take gloves.                                       |
+| gaiters                 | Trekmates                                                 |     85 | Flaw: Didn't use them.                                            |
+|-------------------------+-----------------------------------------------------------+--------+-------------------------------------------------------------------|
+|                         |                                                           |   2177 |                                                                   |
+| ^                       |                                                           |   sumb |                                                                   |
+|                         |                                                           |        |                                                                   |
+|-------------------------+-----------------------------------------------------------+--------+-------------------------------------------------------------------|
+| shelter and sleeping    | detail                                                    | weight | comments                                                          |
+|-------------------------+-----------------------------------------------------------+--------+-------------------------------------------------------------------|
+| tent                    | Tenttarp Protrail with backpole                           |    780 |                                                                   |
+| guylines                | Tatonka                                                   |     54 | Flaw: Soak water.                                                 |
+| stakes                  | 8x MSR groundhogs + 4 Tarptent stakes                     |    120 |                                                                   |
+| sleeping bag            | Mountain Equipment helium 400                             |    766 |                                                                   |
+| sleeping bag sack       |                                                           |     49 |                                                                   |
+| sleeping pad            | Therm-a-Rest Ridge Rest SOLite                            |    413 | Not too comfortable but you can use noninflatable pads for rests. |
+| inlet                   | Cocoon Mummy Liner                                        |    120 |                                                                   |
+| groundsheet             | tyvek                                                     |     95 |                                                                   |
+|-------------------------+-----------------------------------------------------------+--------+-------------------------------------------------------------------|
+|                         |                                                           |   2397 |                                                                   |
+| ^                       |                                                           |   sumc |                                                                   |
+|                         |                                                           |        |                                                                   |
+|-------------------------+-----------------------------------------------------------+--------+-------------------------------------------------------------------|
+| cooking & water         | detail                                                    | weight | comments                                                          |
+|-------------------------+-----------------------------------------------------------+--------+-------------------------------------------------------------------|
+| stove                   | trangia                                                   |    111 |                                                                   |
+| pot stand               | selfmade                                                  |     20 | Alu tube and two wires.  Acceptable.                              |
+| sponge                  |                                                           |      4 | Unnecessarry.                                                     |
+| windscreen              | selfmade                                                  |     20 | Broken after two or three weeks but easy to replace.              |
+| ignition                | 2xlighter                                                 |     37 |                                                                   |
+| pot (with cozy)         | GSI Halulite Minimalist 600ml                             |    177 | Top: Really liked it.                                             |
+| spoon                   | Snow Peak Titanium                                        |     15 |                                                                   |
+| water storage           | Platypus 1L                                               |     24 |                                                                   |
+| water storage           | Source Liquitainer 2L                                     |     38 | Leaked after some time.                                           |
+| purification            | Aquaventure                                               |     84 |                                                                   |
+|-------------------------+-----------------------------------------------------------+--------+-------------------------------------------------------------------|
+|                         |                                                           |    530 |                                                                   |
+| ^                       |                                                           |   sumd |                                                                   |
+|                         |                                                           |        |                                                                   |
+|-------------------------+-----------------------------------------------------------+--------+-------------------------------------------------------------------|
+| navigation              |                                                           |        |                                                                   |
+|-------------------------+-----------------------------------------------------------+--------+-------------------------------------------------------------------|
+| compass                 | Recta DS40                                                |     42 |                                                                   |
+| guidebook               | Joosten printed on AN                                     |    120 |                                                                   |
+| maps                    | cut or printed on A4                                      |    197 |                                                                   |
+| gps                     | Teasi One and charger                                     |    143 | Stupid gps but I already owned it.                                |
+|-------------------------+-----------------------------------------------------------+--------+-------------------------------------------------------------------|
+|                         |                                                           |    502 |                                                                   |
+| ^                       |                                                           |   sume |                                                                   |
+|                         |                                                           |        |                                                                   |
+|-------------------------+-----------------------------------------------------------+--------+-------------------------------------------------------------------|
+| small essentials        |                                                           |        |                                                                   |
+|-------------------------+-----------------------------------------------------------+--------+-------------------------------------------------------------------|
+| dent care               | toothbrush, paste, floss                                  |     61 |                                                                   |
+| toilet paper            |                                                           |     25 |                                                                   |
+| soap                    | Dr. Bronner Zitrus                                        |     78 |                                                                   |
+| crème                   | Speick                                                    |     50 |                                                                   |
+| towel                   | Salewa drying towel                                       |     20 | Hitchhikers guide to the galaxy: You need some towel.             |
+| sun protection          | sunscreen, lip balsam                                     |     78 |                                                                   |
+| foot care               | Leukotape, salve, blisterstuff                            |     96 | Never had problems with my feet.                                  |
+| first aid               | patch, ibuprofen, antidiarrhea, roll gauze, antiseptikumm |     78 | Antidiarrhea strongly recommended ;).                             |
+| mini scissor            | from first aid set                                        |     11 |                                                                   |
+| knife                   | Opinel                                                    |     46 | Could be lighter but I like it.                                   |
+| lightning               | Petzl Tikka 2                                             |     81 |                                                                   |
+| repair                  | Kleber, Nadel, Faden                                      |     21 |                                                                   |
+| mobile phone            | Samsung and cable to usb                                  |    130 |                                                                   |
+| usb power adapter       | Talytech                                                  |     26 |                                                                   |
+| ebookeader              |                                                           |    178 |                                                                   |
+| camera                  | Canon Powershot G15                                       |    381 | Heavy but relatively good pictures.                               |
+| camera equipment        | spare battery, storage cards, case, power station, tripod |    288 | Didn't need spare battery pack.                                   |
+| notebook                | Moleskine notebook                                        |    132 | Heavy but I like writing things down.                             |
+| pencils                 | Staedler                                                  |     12 |                                                                   |
+| pens                    | Uniball eye                                               |     19 |                                                                   |
+| mini carabiner 3x       | Sea to Summit                                             |      8 |                                                                   |
+| whistle                 | acme tornado                                              |      5 |                                                                   |
+| ear plugs               |                                                           |      2 | Strongly recommended.                                             |
+| spare batteries         | AAA                                                       |     40 |                                                                   |
+|-------------------------+-----------------------------------------------------------+--------+-------------------------------------------------------------------|
+|                         |                                                           |   1866 |                                                                   |
+| ^                       |                                                           |   sumf |                                                                   |
+|                         |                                                           |        |                                                                   |
+|-------------------------+-----------------------------------------------------------+--------+-------------------------------------------------------------------|
+| packing                 | detail                                                    | weight | comments                                                          |
+|-------------------------+-----------------------------------------------------------+--------+-------------------------------------------------------------------|
+| backpack                | Deuter ACT Lite 50+10                                     |   1670 | Top: Good size for me.                                            |
+| pack liner              | garbage sacks                                             |     82 | A bit heavy. Had to buy new ones on the road.                     |
+| stuff sack              | Sea to Summit UltraSil Day Pack                           |     71 |                                                                   |
+| plastic storage bags    |                                                           |     20 |                                                                   |
+| wallet                  | Zipper                                                    |     70 | with all the stuff inside                                         |
+| map bag                 | Zipper 3l                                                 |     19 |                                                                   |
+|-------------------------+-----------------------------------------------------------+--------+-------------------------------------------------------------------|
+|                         |                                                           |   1932 |                                                                   |
+| ^                       |                                                           |   sumg |                                                                   |
+|                         |                                                           |        |                                                                   |
+|-------------------------+-----------------------------------------------------------+--------+-------------------------------------------------------------------|
+| A gear worn             |                                                           |   2036 |                                                                   |
+| B pack and gear in pack |                                                           |   9404 |                                                                   |
+| C water at start        |                                                           |   2000 |                                                                   |
+| D food at start         |                                                           |   1000 |                                                                   |
+| E fuel at start         |                                                           |   1000 |                                                                   |
+| F pack weight at start  |                                                           |  13380 |                                                                   |
+| G total weight at start |                                                           |  15442 |                                                                   |
+#+TBLFM: $suma=vsum(@-II..@-I)::$sumb=vsum(@-II..@-I)::$sumc=vsum(@-II..@-I)::$sumd=vsum(@-II..@-I)::$sume=vsum(@-II..@-I)::$sumf=vsum(@-II..@-I)::$sumg=vsum(@-II..@-I)
+#+TBLFM: @>>>>>>>$3 = $suma::@>>>>>>$3 = $sumb+$sumc+$sumd+$sume+$sumf+$sumg::@>>$3 = @>>>$3+@>>>>$3+@>>>>>$3+@>>>>>>$3::@>$3 = @>>$3+@>>>>>>>$3
